@@ -1,0 +1,123 @@
+:root {
+    ---branco: white;
+    ---azul-claro: #badfff;
+    ---azul-escuro: #054ba0;
+    ---vermelho-claro: #ffd9d9;
+    ---vermelho-forte: #ff0202;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: var(---branco);
+}
+
+header{
+    position: absolute;
+    top: 0vw;
+    background-color: var(---azul-escuro);
+    width: 100%;
+    height: 10vh;
+}
+
+.flex-container{
+    margin-top: 19vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+}
+
+
+#Pedidos{
+    position: absolute;
+    top: 11.5vh;
+    font-size: 7vw;
+    color: var(---azul-escuro);
+}
+
+
+#sobrePeso{
+    background-color: var(---azul-claro);
+    width: 80%;
+    height: 12vh;
+    font-size: 6vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: var(---azul-escuro);
+    border-radius: 1vw;
+}
+
+#alerta{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#alerta-Texto{
+    background-color: var(---azul-claro);
+    width: 80%;
+    height: 12vh;
+    font-size: 6vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(---vermelho-claro);
+    color: var(---vermelho-forte);
+    border-radius: 1vw;
+}
+
+
+
+#imagemAlerta{
+    width: 25vw;
+    height: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+
+#itensFaltantes {
+    margin-top: 5vh;
+    color: #054ba0;
+    text-align: center;
+    font-size: 3.5vw;
+    height: 50vh;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    h1{
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+}
+
+.textArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(---azul-claro);
+    width: 40%;
+    height: auto;
+    padding: 2vw;
+    border-radius: 1vw;
+}
+
+.textArea img {
+    width: 100%;
+    height: auto;
+}

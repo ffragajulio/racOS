@@ -1,0 +1,26 @@
+:root {
+    ---azul-claro: #badfff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: var(---azul-claro);
+}
+
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#faceIdIcon{
+    width: 30vw;
+}
